@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width">
+        <title>Israa Nada</title>
+        <link rel="stylesheet" type="text/css" href="./css/My_Portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Linkedin">Linkedin</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Art_Video">
+                <source src="./videos/moodboard.mp4" type="video/mp4">
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Israa Nada's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q> Art and Design is the way I find my escape room, it is my space to think out of the box.
+                        <br>Any pallete, any lines can be my unique masterpiece, and where I really find my joy;
+                        <br>Is to paint the loved ones, favourite scenes for my neighbours,
+                        <br>And help my friends with their home designs!
+                    </q>
+                    <br> My name is Israa Nada. Welcome to my portfolio website. On it I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./pictures/cats.jpg" alt="">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am an interior designer and an artist. One of my favourite things in the world is cats, as a wife and a mum of two girls, I enjoy spending time together indoors and outdoors.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.alexu.edu.eg/index.php/en/" target="_blank"> Alexandria University, Egypt</a>
+                    <br>
+                    <br> I moved to England to join my husband and started working at Amazon 4 years ago.
+                    <br> I am studying web development now, I hope to do a career shift to back end web development. Giving myself time to practice arts and design as a hobby.<a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="Linkedin">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>Linkedin</h1>
+                <p>
+                    You can view my projects and artworks on my Linkedin profile here:
+                    <br>
+                    <p class="center"><a href="https://www.linkedin.com/in/israa-essam-nada-14b6ba18b/" target="_blank">Israa Nada Linkedin</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://www.linkedin.com/in/israa-essam-nada-14b6ba18b/" target="_blank"><img src="./pictures/Linkedin.png" alt="Linkedin Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image,left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./pictures/painted_cat.jfif" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="post">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&copy Design Consulting Inc.
+                <br> Israa Nada Interior Designer</p>
+            </p>
+        </footer>
+    </body>
+</html>
